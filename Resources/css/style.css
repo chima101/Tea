@@ -29,6 +29,7 @@ header nav {
   align-items: center;
   padding-top: 100px;
   width: auto;
+  color: grey;
 }
 .logo {
   display: fle
@@ -90,7 +91,6 @@ h2 {
 .narrative {
 }
 .Locations {
-  color: blue;
   display: flex;
   flex-direction: column;
   justify-content: center;
