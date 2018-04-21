@@ -1,0 +1,182 @@
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9
+}
+header {
+  display: flex;
+  flex-direction: row;
+  height: 69;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 2;
+  background-color: inherit;
+ align-items: center;
+ text-align: center;
+ background-size: cover;
+ background-repeat: repeat;
+
+}
+header nav {
+
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  width: auto;
+}
+.logo {
+  display: fle
+  align-content: center;
+  padding-left: 10px;
+
+}
+.logo img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  height: 50px;
+}
+a {
+  color: grey;
+}
+
+
+nav {
+  color: black;
+}
+
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+.Mission.image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+
+}
+h2 {
+  color: red;
+   display: inline-block;
+   align-items: center;
+
+}
+.main {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  align-items: center;
+  height: auto;
+  color: grey;
+
+}
+.narrative {
+}
+.Locations {
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Locations.image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg)
+  height: 500px;
+}
+
+
+.list {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-flow: row wrap;
+   align-content: flex-end;
+}
+
+.list h4 {
+
+}
+
+.list img {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+  width: 1000px;
+
+}
+.tea h2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.tea {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 1200;
+
+}
+.Steeping {
+
+  }
+
+  .dowtown {
+    display: block;
+    width: 300px;
+    background-color: white;
+  }
+
+  .east {
+    display: block;
+    width: 300px;
+    background-color: white;
+  }
+
+  .oakdale {
+    display: block;
+    width: 300px;
+    background-color: white;
+  }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 200px;
+  margin: auto;
+}
+footer .info {
+  color: red;
+  height: 200px;
+}
+
+.copyright h5 {
+
+}
