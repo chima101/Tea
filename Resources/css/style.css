@@ -17,6 +17,7 @@ header {
  text-align: center;
  background-size: cover;
  background-repeat: repeat;
+ width: 100%;
 
 }
 header nav {
@@ -91,13 +92,14 @@ h2 {
 .narrative {
 }
 .Locations {
+  background-image: url(../images/img-locations-background.jpg);
+  width: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .Locations.image-content {
-  background-image: url("../img-locations-background.jpg");
-  height: 500px;
+    height: 500px;
   background-size: cover;
   display: block;
 }
