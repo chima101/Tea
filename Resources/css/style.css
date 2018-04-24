@@ -90,17 +90,6 @@ h2 {
 
 }
 
-.list {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-flow: row wrap;
-   align-content: flex-end;
-}
-
-.list {
-
-}
 
 .list img {
   display: inline-block;
@@ -108,28 +97,29 @@ h2 {
   height: 200px;
 }
 
-  .Second.list {
-
-  }
-
-  .third.list {
-
-  }
-
 .story {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-content: space-around;
   width: 1000px;
-
 }
-.tea h2 {
+
+.list {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
 }
 
+.second.list {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.third.list {
+  display: flex;
+  flex-direction: column;
+}
 
 .tea {
   display: flex;
@@ -141,10 +131,12 @@ h2 {
 
   .Locations {
     background-image: url(../images/img-locations-background.jpg);
-    width: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 100%;
+    background-repeat: no-repeat;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
   }
   .Locations.image-content {
       height: 500px;
