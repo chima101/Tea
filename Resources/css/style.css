@@ -123,7 +123,7 @@ h2 {
 
 .tea {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 1200;
@@ -171,11 +171,15 @@ footer {
   margin: auto;
   width: auto;
 }
-footer .info {
-  color: red;
-  height: 200px;
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.copyright h5 {
-
+.copyright {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
