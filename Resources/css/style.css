@@ -129,19 +129,22 @@ h2 {
   width: 1200;
 }
 
+.address {
+  background-image: url(../images/img-locations-background.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   height: 500px;
+ background-size: cover;
+
+}
+
   .Locations {
-    background-image: url(../images/img-locations-background.jpg);
-    width: 100%;
-    background-repeat: no-repeat;
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: center;
-  }
-  .Locations.image-content {
-      height: 500px;
-    background-size: cover;
-    display: block;
+    display: flex;
+    flex-direction: row;
   }
 
   .dowtown {
@@ -180,6 +183,6 @@ footer {
 
 .copyright {
   display: flex;
-  flex-direction: row;
   align-items: flex-start;
+  margin-right: auto;
 }
