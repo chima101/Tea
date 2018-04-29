@@ -91,42 +91,16 @@ h2 {
 }
 
 
-.list img {
-  display: inline-block;
-  width: 300px;
-  height: 200px;
+.list-item {
+  width: 25%;
+  float: left;
+  margin: auto;
+  text-align: center;
+  padding: 10px
 }
 
-.story {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-content: space-around;
-  width: 1000px;
-}
-
-.list {
-  display: flex;
-  flex-direction: column;
-}
-
-.second.list {
-  display: flex;
-  flex-direction: column;
-
-}
-
-.third.list {
-  display: flex;
-  flex-direction: column;
-}
-
-.tea {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 1200;
+.list-item img {
+  width: 100%;
 }
 
 .address {
