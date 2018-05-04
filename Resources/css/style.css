@@ -91,7 +91,7 @@ h2 {
 
 }
 
-.tea {
+.tea .list-item {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -132,11 +132,10 @@ h3, p {
 }
 
 .Location-list {
-    display: flex;
-   flex-direction: column;
-   justify-content: flex-end;
-   flex-wrap: wrap;
-   align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
    opacity: 1;
    width: 300px;
    height: auto;
