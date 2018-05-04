@@ -91,6 +91,13 @@ h2 {
 
 }
 
+.tea {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 
 .list-item {
   width: 25%;
@@ -105,11 +112,11 @@ h2 {
 }
 
 .location.block {
-      background-image: url(../images/img-locations-background.jpg);
-    background-color: black;
+      background-image: url(../images/img-locations-background.jpg)
     width: auto;
     height: 500px;
-
+    background-position: center;
+    background-size: auto;
 }
 
 .address {
@@ -137,6 +144,7 @@ h3, p {
    height: auto;
    padding-right: 40px
    padding-top: 15px;
+   background-color: black;
   }
 
   .Locations {
@@ -145,25 +153,25 @@ h3, p {
 
 
 
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 200px;
-  margin: auto;
-  width: auto;
-}
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    margin: auto;
+    width: auto;
+  }
 
-.info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.copyright {
-  display: flex;
-  align-items: flex-start;
-  margin-right: auto;
-  float: left;
-}
+  .copyright {
+    display: flex;
+    align-items: flex-start;
+    margin-right: auto;
+
+  }
