@@ -107,8 +107,8 @@ h2 {
 .location.block {
       background-image: url(../images/img-locations-background.jpg);
     background-color: black;
-    width: 300px;
-    height: auto;
+    width: auto;
+    height: 500px;
 
 }
 
@@ -132,7 +132,11 @@ h3, p {
    justify-content: flex-end;
    flex-wrap: wrap;
    align-items: center;
-
+   opacity: 1;
+   width: 300px;
+   height: auto;
+   padding-right: 40px
+   padding-top: 15px;
   }
 
   .Locations {
@@ -161,4 +165,5 @@ footer {
   display: flex;
   align-items: flex-start;
   margin-right: auto;
+  float: left;
 }
