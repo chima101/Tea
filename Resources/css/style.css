@@ -112,9 +112,9 @@ h2 {
 }
 
 .location.block {
-      background-image: url(../images/img-locations-background.jpg)
-    width: auto;
-    height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
 }
 
@@ -123,8 +123,9 @@ h2 {
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-
-
+  background-image: url(../images/img-locations-background.jpg)
+  width: 100%;
+  height: 500px;
 }
 
 h3, p {
