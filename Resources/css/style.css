@@ -44,6 +44,7 @@ header nav {
   align-items: center;
   padding: 10px;
   height: 50px;
+
 }
 a {
   color: grey;
@@ -103,41 +104,42 @@ h2 {
   width: 100%;
 }
 
-.address {
-  background-image: url(../images/img-locations-background.jpg);
-  width: 100%;
-  background-repeat: no-repeat;
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: center;
-   height: 500px;
- background-size: cover;
+.location.block {
+      background-image: url(../images/img-locations-background.jpg);
+    background-color: black;
+    width: 300px;
+    height: auto;
 
 }
 
-  .Locations {
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100px;
+  height: auto;
+
+}
+
+h3, p {
+  color: white;
+}
+
+.Location-list {
     display: flex;
-    flex-direction: row;
+   flex-direction: column;
+   justify-content: flex-end;
+   flex-wrap: wrap;
+   align-items: center;
+
   }
 
-  .dowtown {
-    display: block;
-    width: 300px;
-    background-color: white;
+  .Locations {
+
   }
 
-  .east {
-    display: block;
-    width: 300px;
-    background-color: white;
-  }
 
-  .oakdale {
-    display: block;
-    width: 300px;
-    background-color: white;
-  }
 
 footer {
   display: flex;
