@@ -115,8 +115,7 @@ h2 {
       background-image: url(../images/img-locations-background.jpg)
     width: auto;
     height: 500px;
-    background-position: center;
-    background-size: auto;
+
 }
 
 .address {
@@ -124,8 +123,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-  width: 100px;
-  height: auto;
+
 
 }
 
@@ -142,9 +140,7 @@ h3, p {
    opacity: 1;
    width: 300px;
    height: auto;
-   padding-right: 40px
-   padding-top: 15px;
-   background-color: black;
+
   }
 
   .Locations {
