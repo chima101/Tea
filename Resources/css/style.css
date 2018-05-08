@@ -119,11 +119,10 @@ h2 {
 
 }
 
- .location-first, .location-second, .location-third {
+ .location-first {
    background-color: black;
    background-position: center;
    text-align: center;
-   border: solid
  }
 
 .address {
