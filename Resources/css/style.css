@@ -121,9 +121,15 @@ h2 {
 
  .location-first {
    background-color: black;
-   background-position: center;
-   text-align: center;
  }
+
+ .location-second {
+   background-color: black;
+ }
+
+.location-third {
+  background-color: black;
+}
 
 .address {
     background-image: url(../images/img-locations-background.jpg);
