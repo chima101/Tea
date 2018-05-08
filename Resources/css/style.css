@@ -122,7 +122,8 @@ h2 {
  .location-first, .location-second, .location-third {
    background-color: black;
    background-position: center;
-   text-align: center; 
+   text-align: center;
+   border: solid
  }
 
 .address {
