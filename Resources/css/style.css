@@ -93,7 +93,6 @@ h2 {
  .list {
    display: flex;
    flex-flow: row wrap;
-   align-content: center;
  }
 
 .tea {
@@ -115,19 +114,25 @@ h2 {
 
 .location.block {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-flow: row nowrap;
+  text-align: center;
 
 }
+
+ .location-first, .location-second, .location-third {
+   background-color: black;
+   background-position: center;
+   text-align: center; 
+ }
 
 .address {
     background-image: url(../images/img-locations-background.jpg);
     width: auto;
     height: 500px;
-    display: flex;
-    flex-flow: column wrap;
     text-align: center;
-    padding: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
 }
 
 h3, p {
